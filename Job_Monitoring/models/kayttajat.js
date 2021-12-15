@@ -3,7 +3,7 @@ const mysql = require("mysql");
 
 
 const yhteys = mysql.createConnection({
-                                        "host":"t",
+                                        "host":"",
                                         "user":"",
                                         "password":"",
                                         "database":""
