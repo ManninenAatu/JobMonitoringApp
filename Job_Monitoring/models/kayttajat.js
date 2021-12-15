@@ -3,10 +3,10 @@ const mysql = require("mysql");
 
 
 const yhteys = mysql.createConnection({
-                                        "host":"localhost",
-                                        "user":"root",
+                                        "host":"t",
+                                        "user":"",
                                         "password":"",
-                                        "database":"soveltavaharjoitus"
+                                        "database":""
                                         });
 
 yhteys.connect((err)=>{
